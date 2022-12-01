@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669861150023' stop='1669861155453'>
+    <name>Test case 2</name>
+    <title>Test case 2</title>
+    <test-cases>
+        <test-case start='1669861150023' status='passed' stop='1669861155452'>
+            <name>Go to product page</name>
+            <title>Go to product page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps>
+                <step start='1669861150025' status='passed' stop='1669861150172'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='a144e218-f8aa-41ba-ba4e-979922f84680-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669861150173' status='passed' stop='1669861153252'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1c27687d-fac8-4c5c-919a-7df6c8b1fc60-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669861153252' status='passed' stop='1669861153265'>
+                    <name>POST /session/:sessionId/cookie</name>
+                    <title>POST /session/:sessionId/cookie</title>
+                    <attachments>
+                        <attachment title='Request' source='3bb4c12a-d34d-4473-9ec6-e18601bcccf0-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669861153266' status='passed' stop='1669861155412'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5e9ca5fb-dfe4-4d27-ad38-124e5cfb743c-attachment.json' type='application/json' size='458'/>
+                        <attachment title='Response' source='628fce37-b1ed-4f07-81da-6b61d4c9cb6b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669861155417' status='passed' stop='1669861155432'>
+                    <name>GET /session/:sessionId/element/6a91275c-8a80-4a65-bafb-77eee9828d82/text</name>
+                    <title>GET /session/:sessionId/element/6a91275c-8a80-4a65-bafb-77eee9828d82/text</title>
+                    <attachments>
+                        <attachment title='Response' source='fa5c6b32-0982-476c-b545-709e094876b4-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669861155433' status='passed' stop='1669861155449'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='1ab0b2b6-6821-4589-af2b-81b1f57f2f42-attachment.json' type='application/json' size='5124'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669861155449' status='passed' stop='1669861155452'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

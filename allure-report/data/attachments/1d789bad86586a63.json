@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(.//*[@aria-labelledby=(//*[normalize-space() = \"Blog\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Blog\"]/@id)] | .//*[@aria-label = \"Blog\"] | .//input[@id = (//label[normalize-space() = \"Blog\"]/@for)] | .//input[@placeholder=\"Blog\"] | .//input[@aria-placeholder=\"Blog\"] | .//*[@title=\"Blog\"] | .//img[@alt=\"Blog\"] | .//*[normalize-space() = \"Blog\"])[1]"
+}

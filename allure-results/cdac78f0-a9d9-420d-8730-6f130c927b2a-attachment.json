@@ -1,0 +1,157 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "ae21498fa73a6821264161d05cd38be2",
+            "error": {
+              "error": "no such element",
+              "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(.//*[@aria-labelledby=(//*[normalize-space() = \"Platform\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space() = \"Platform\"]/@id)] | .//*[@aria-label = \"Platform\"] | .//input[@id = (//label[normalize-space() = \"Platform\"]/@for)] | .//input[@placeholder=\"Platform\"] | .//input[@aria-placeholder=\"Platform\"] | .//*[@title=\"Platform\"] | .//img[@alt=\"Platform\"] | .//*[normalize-space() = \"Platform\"])[1]\"}\n  (Session info: chrome=108.0.5359.72)",
+              "stacktrace": "Backtrace:\n\tOrdinal0 [0x00ADACD3+2075859]\n\tOrdinal0 [0x00A6EE61+1633889]\n\tOrdinal0 [0x0096B7BD+571325]\n\tOrdinal0 [0x0099AC2F+764975]\n\tOrdinal0 [0x0099AE1B+765467]\n\tOrdinal0 [0x009CD0F2+970994]\n\tOrdinal0 [0x009B7364+881508]\n\tOrdinal0 [0x009CB56A+963946]\n\tOrdinal0 [0x009B7136+880950]\n\tOrdinal0 [0x0098FEFD+720637]\n\tOrdinal0 [0x00990F3F+724799]\n\tGetHandleVerifier [0x00D8EED2+2769538]\n\tGetHandleVerifier [0x00D80D95+2711877]\n\tGetHandleVerifier [0x00B6A03A+521194]\n\tGetHandleVerifier [0x00B68DA0+516432]\n\tOrdinal0 [0x00A7682C+1665068]\n\tOrdinal0 [0x00A7B128+1683752]\n\tOrdinal0 [0x00A7B215+1683989]\n\tOrdinal0 [0x00A86484+1729668]\n\tBaseThreadInitThunk [0x7758FEF9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77E97BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77E97B8E+238]\n"
+            },
+            "selector": "aria/Platform",
+            "parent": {
+              "sessionId": "ae21498fa73a6821264161d05cd38be2",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "108.0.5359.72",
+                "chrome": {
+                  "chromedriverVersion": "107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942})",
+                  "userDataDir": "C:\\Users\\sante\\AppData\\Local\\Temp\\scoped_dir18188_1207959104"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:55641"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "windows",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "C:\\Users\\sante\\Documents\\Github\\web_test\\test\\specs\\test_case_2.js"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "mocha",
+                "reporters": [
+                  "spec",
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results"
+                    }
+                  ]
+                ],
+                "services": [
+                  "chromedriver"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 60000,
+                  "ui": "bdd"
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "onWorkerEnd": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [
+                  null
+                ],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "http://profilence.com",
+                "_": [],
+                "spec": [
+                  "./test\\specs\\test_case_2.js"
+                ],
+                "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false,
+            "elementId": "765b2e44-a89e-4f0d-b683-aea699253d97",
+            "element-6066-11e4-a52e-4f735466cecf": "765b2e44-a89e-4f0d-b683-aea699253d97"
+          },
+          "x": 15,
+          "y": 8
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

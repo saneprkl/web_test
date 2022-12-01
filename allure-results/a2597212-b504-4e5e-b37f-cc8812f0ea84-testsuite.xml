@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669872463538' stop='1669872466525'>
+    <name>Test case 4</name>
+    <title>Test case 4</title>
+    <test-cases>
+        <test-case start='1669872463539' status='broken' stop='1669872466524'>
+            <name>Cycle dropdown</name>
+            <title>Cycle dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps>
+                <step start='1669872463541' status='passed' stop='1669872463672'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='272822c1-f223-4ea9-8a5d-e535706077c3-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872463672' status='passed' stop='1669872465770'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='23f59ec0-1e41-4955-a280-bee827b5b6d5-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872465773' status='passed' stop='1669872465793'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='57d7891b-bec1-4e9d-b22a-ca97abe51fb8-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='4f1ef9ea-b0ea-455a-b5b4-e6a1bb5ba59d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872465800' status='passed' stop='1669872465839'>
+                    <name>POST /session/:sessionId/element/d6403a41-9e62-4159-9b68-b3eb25d0fa4f/click</name>
+                    <title>POST /session/:sessionId/element/d6403a41-9e62-4159-9b68-b3eb25d0fa4f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669872465839' status='passed' stop='1669872465855'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e9a55289-4938-4621-a8e7-78b9787fe7b9-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='dffb1709-3f0b-45ac-b601-51f6467cfac5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872465859' status='passed' stop='1669872466523'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5cf3c971-b3f3-4242-a1af-633d3b72c2f3-attachment.png' type='image/png' size='1303864'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>openDrop.click is not a function</message>
+                <stack-trace>TypeError: openDrop.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\sante\Documents\Github\web_test\test\specs\test_case_4.js:10:24)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

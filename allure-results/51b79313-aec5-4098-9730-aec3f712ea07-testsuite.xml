@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669861114343' stop='1669861114456'>
+    <name>Test case 2</name>
+    <title>Test case 2</title>
+    <test-cases>
+        <test-case start='1669861114344' status='broken' stop='1669861114455'>
+            <name>Go to product page</name>
+            <title>Go to product page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps>
+                <step start='1669861114346' status='broken' stop='1669861114455'>
+                    <name>POST /session/:sessionId/cookie</name>
+                    <title>POST /session/:sessionId/cookie</title>
+                    <attachments>
+                        <attachment title='Request' source='35d3465f-7627-4775-8588-7e5a743721bc-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps>
+                        <step start='1669861114383' status='passed' stop='1669861114454'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='5f87ccd1-22b5-4b86-bf05-92179e9cb578-attachment.png' type='image/png' size='5199'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid cookie domain
+                  (Session info: chrome=108.0.5359.72)</message>
+                <stack-trace>invalid cookie domain: invalid cookie domain
+                  (Session info: chrome=108.0.5359.72)
+                    at getErrorFromResponseBody (C:\Users\sante\Documents\Github\web_test\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\sante\Documents\Github\web_test\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.setCookies (C:\Users\sante\Documents\Github\web_test\node_modules\webdriverio\build\commands\browser\setCookies.js:63:9)
+                    at async Browser.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\sante\Documents\Github\web_test\test\specs\test_case_2.js:5:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669872740027' stop='1669872742644'>
+    <name>Test case 4</name>
+    <title>Test case 4</title>
+    <test-cases>
+        <test-case start='1669872740028' status='broken' stop='1669872742644'>
+            <name>Cycle dropdown</name>
+            <title>Cycle dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps>
+                <step start='1669872740030' status='passed' stop='1669872740154'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='d30a449b-2c6b-41eb-9338-6ff82f75d358-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872740155' status='passed' stop='1669872741857'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ecb935b1-66a3-465b-9e8c-170420f878c7-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872741858' status='passed' stop='1669872741875'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ccc0405c-b5a1-4a98-b39e-3f1eeeb52938-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='0983d766-858e-4fb8-ac0e-d36dc6a055fe-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872741880' status='passed' stop='1669872741923'>
+                    <name>POST /session/:sessionId/element/0e7c662d-87d0-4bf4-9370-f9c5690fcacb/click</name>
+                    <title>POST /session/:sessionId/element/0e7c662d-87d0-4bf4-9370-f9c5690fcacb/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669872741924' status='passed' stop='1669872741940'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d5640e9c-28f9-4bd6-9e07-644f5d60f9fb-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f98c0148-38b6-4cc8-9f70-4f690d6e64d6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872741944' status='broken' stop='1669872742644'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='0c79cb0b-d732-4d50-ae2e-a839a02e129d-attachment.json' type='application/json' size='5120'/>
+                    </attachments>
+                    <steps>
+                        <step start='1669872741985' status='passed' stop='1669872742643'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='50cce5a6-a45f-4f64-b61a-f3b6c9a4e652-attachment.png' type='image/png' size='1303864'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable: https://profilence.com/ has no size and location
+                  (Session info: chrome=108.0.5359.72)</message>
+                <stack-trace>element not interactable: element not interactable: https://profilence.com/ has no size and location
+                  (Session info: chrome=108.0.5359.72)
+                    at getErrorFromResponseBody (C:\Users\sante\Documents\Github\web_test\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\sante\Documents\Github\web_test\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\sante\Documents\Github\web_test\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.click (C:\Users\sante\Documents\Github\web_test\node_modules\webdriverio\build\commands\element\click.js:114:9)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\sante\Documents\Github\web_test\node_modules\webdriverio\build\middlewares.js:24:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

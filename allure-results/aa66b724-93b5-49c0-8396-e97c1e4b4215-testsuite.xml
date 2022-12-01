@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669872041628' stop='1669872044489'>
+    <name>Test case 4</name>
+    <title>Test case 4</title>
+    <test-cases>
+        <test-case start='1669872041628' status='broken' stop='1669872044488'>
+            <name>Cycle dropdown</name>
+            <title>Cycle dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps>
+                <step start='1669872041630' status='passed' stop='1669872041771'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='93c224a0-890b-4004-8fed-c76336a90696-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872041773' status='passed' stop='1669872043624'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0fb43a90-8f23-4c36-ac35-27659737545d-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872043627' status='passed' stop='1669872043646'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dc292f1e-bfdd-450c-8327-fb943f32eae3-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='eb16603c-c887-4845-af00-eea4ecbddfab-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872043653' status='passed' stop='1669872043700'>
+                    <name>POST /session/:sessionId/element/faaee004-197b-447c-a95f-e86c32aa8bd3/click</name>
+                    <title>POST /session/:sessionId/element/faaee004-197b-447c-a95f-e86c32aa8bd3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669872043701' status='passed' stop='1669872043719'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='933f5aa4-cb63-42b7-ad99-94ba0e5c80f7-attachment.json' type='application/json' size='248'/>
+                        <attachment title='Response' source='9be339e9-a975-4cd4-8a01-342efa5361a9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872043722' status='broken' stop='1669872044488'>
+                    <name>POST /session/:sessionId/element/faaee004-197b-447c-a95f-e86c32aa8bd3/click</name>
+                    <title>POST /session/:sessionId/element/faaee004-197b-447c-a95f-e86c32aa8bd3/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1669872043773' status='passed' stop='1669872044487'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='3f91e4fd-f3c2-4786-9d90-642657d2ea7f-attachment.png' type='image/png' size='1303864'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=108.0.5359.72)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=108.0.5359.72)
+                    at getErrorFromResponseBody (C:\Users\sante\Documents\Github\web_test\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\sante\Documents\Github\web_test\node_modules\webdriver\build\request\index.js:166:60)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\sante\Documents\Github\web_test\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\sante\Documents\Github\web_test\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\sante\Documents\Github\web_test\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669872907945' stop='1669872912636'>
+    <name>Test case 4</name>
+    <title>Test case 4</title>
+    <test-cases>
+        <test-case start='1669872907945' status='broken' stop='1669872912636'>
+            <name>Cycle dropdown</name>
+            <title>Cycle dropdown</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.72'/>
+            </parameters>
+            <steps>
+                <step start='1669872907946' status='passed' stop='1669872908089'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='e3533859-21cf-4916-9f6d-5ee9f62725da-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872908090' status='passed' stop='1669872909846'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3f8759e4-9b04-4d63-ab14-58d7cc1604c9-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872909848' status='passed' stop='1669872909869'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e60ffc71-12e4-4e60-8d84-4dc842495ea9-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='d7772372-caff-4fb1-973c-ff9ccfc73096-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872909874' status='passed' stop='1669872909910'>
+                    <name>POST /session/:sessionId/element/633d4881-82aa-45b6-bff1-ae4aba8f66ec/click</name>
+                    <title>POST /session/:sessionId/element/633d4881-82aa-45b6-bff1-ae4aba8f66ec/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669872909911' status='passed' stop='1669872911894'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bb85e079-ed37-4de5-822a-faeeecd3128f-attachment.json' type='application/json' size='449'/>
+                        <attachment title='Response' source='d8f3cd99-9f31-484b-8c43-c938abbd0019-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872911896' status='passed' stop='1669872911926'>
+                    <name>POST /session/:sessionId/element/784d7c01-2e52-42b9-a5e2-27299e254d91/click</name>
+                    <title>POST /session/:sessionId/element/784d7c01-2e52-42b9-a5e2-27299e254d91/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669872911927' status='passed' stop='1669872911943'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4030190c-9ccd-4263-b9f0-68f98ee8fb7b-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='8a8f6690-b0dc-4b00-b43d-3b9c610d5560-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669872911951' status='passed' stop='1669872912635'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='bf59f46c-5eac-41e1-b0b3-4a8291128536-attachment.png' type='image/png' size='1286784'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>bullets is not defined</message>
+                <stack-trace>ReferenceError: bullets is not defined
+                    at Context.&lt;anonymous> (C:\Users\sante\Documents\Github\web_test\test\specs\test_case_4.js:17:9)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
